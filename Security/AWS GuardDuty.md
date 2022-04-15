@@ -8,7 +8,7 @@
 	- 30 days trial
 - No need to install software
 - Input Data Includes
-	- [[CloudTrail]] Events Logs
+	- [[AWS CloudTrail]] Events Logs
 		- CloudTrail Management Events
 		- CloudTrail S3 Data Events
 	- VPC Flow Logs

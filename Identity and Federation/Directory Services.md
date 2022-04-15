@@ -1,7 +1,6 @@
 # Directory Services
-#identity_and_federation
 * Database of Objects
-	* Uer
+	* User
 	* Accounts
 	* Computers
 	* Printers
@@ -14,17 +13,17 @@
 * A group of trees is a forest
 
 ## Services
-* AWS Managed Microsoft AD
-	* Supports MFA
-	* Trust the on-prem users database
-	* Can create users on the AWS Managed AD
-* AD Connector
-	* Proxy to on-prem
-	* Supports MFA
-	* Users are managed on-prem only
-* Simple AD
-	* AD Compatible (not MS AD)
-	* Managed by AWS
-	* Connot Join with on-premise AD
-	* Cheaper
+### AWS Managed Microsoft AD
+* Supports MFA
+* Trust the on-prem users database
+* Can create users on the AWS Managed AD
+### AD Connector
+* Proxy to on-prem
+* Supports MFA
+* Users are managed on-prem only
+### Simple AD
+* AD Compatible (not MS AD)
+* Managed by AWS
+* Connot Join with on-premise AD
+* Cheaper
 ![[Pasted image 20220414114252.png]]

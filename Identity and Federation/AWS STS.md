@@ -1,5 +1,4 @@
 # STS
-#identity_and_federation
 ## Using STS to Assume a Role
 * Define a [[IAM Role]]
 * Define which principals can access this [[IAM Role]] 
@@ -11,7 +10,7 @@
 	* Explicity grant your users permission to assume the role
 	* You can add [[MFA protection]]
 	* Least Privilege
-	* Auditing using [[CloudTrail]]
+	* Auditing using [[AWS CloudTrail]]
 
 ## Cross Account Access with STS
 ![[Pasted image 20220413152423.png]]

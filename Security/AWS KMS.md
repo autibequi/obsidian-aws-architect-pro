@@ -27,7 +27,7 @@
 	- can be enable disable
 	- possibility of rotation policy
 	- can add a key policy (resource policy)
-	- audit in [[CloudTrail]]
+	- audit in [[AWS CloudTrail]]
 	- leverage for envelop encryption
 - AWS Managed Keys
 	- used by AWS Service
@@ -57,7 +57,7 @@
 	- no auto rotation
 	- no cloudHSM
 - AWS_CLOUDHSM
-	- Creates the key material in a custom key store ([[CloudHSM]] Cluster)
+	- Creates the key material in a custom key store ([[AWS CloudHSM]] Cluster)
 ## KMS MultiRegion Key
 - Use same KMS multiple regions
 - Can encrypt in a region and decrypt in another

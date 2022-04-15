@@ -1,0 +1,18 @@
+# AppSync
+- Managed service that uses [[GraphQL]]
+- GraphQL
+	- Makes it easy for apps to get exactly the data they need
+	- This include combining daat from multiple sources
+		- NoSQL data store
+		- Relational Database
+		- HTTP APIs
+		- Integrates with DynamoDB
+		- Aurora
+		- ElasticSearch
+		- etc
+		- Custom Sources via [[AWS Lambda]]
+- Retrieve data in **real-time with WebSocket or MQTT on WebSocket** #focus 
+- For mobile apps:
+	- local data access
+	- data sync 
+- It all starts with uploading one [[GraphQL]] schema

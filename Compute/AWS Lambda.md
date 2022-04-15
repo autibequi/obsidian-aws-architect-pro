@@ -1,6 +1,6 @@
 # AWS Lambda
 ## Main Integrations
-- [[API Gateway]]
+- [[AWS API Gateway]]
 - [[Kinesis]]
 - [[DynamoDB]]
 - [[S3]]
@@ -47,7 +47,7 @@
 
 ## Security
 - [[IAM Role]]s for Lambda
-- [[Resource-based Policies]] for Lambda
+- [[Resource Based Policies]] for Lambda
 	- Similar to [[S3 Security#S3 Bucket Policies]]
 - VPC
 	- Runs on a AWS Cloud VPC by default
@@ -84,7 +84,7 @@
 - Via
 	- CLI
 	- SDK
-	- [[API Gateway]]
+	- [[AWS API Gateway]]
 - Results are returned right away
 - Error handling must happen cient side
 	- retries
@@ -114,7 +114,7 @@
 - All records repect ordering 
 	- Except [[SQS]] Standart
 - If your function returns an error the entire batch is reprocessed until success
-	- [[Kinesis]],[[DynamoDB]] Stream: stop shard processing
+	- [[Kinesis]], [[DynamoDB]] Stream: stop shard processing
 
 ## Destination #focus 
 * Nov 2019 - Can configure to send result to a destination
@@ -148,7 +148,7 @@
 - Pointers to lambda functions
 - Alias are mutable
 
-## Lambda Alias with [[API Gateway]]
+## Lambda Alias with [[AWS API Gateway]]
 ![[Captura de Tela 2022-04-14 às 22.41.57.png]]
 
 ## Lambda & [[CodeDeploy]]

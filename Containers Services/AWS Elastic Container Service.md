@@ -44,7 +44,7 @@
 
 ## Security & Network
 - You can inject secrets and configuration as envvar into running docker containers
-	- Integration with [[SSM Parameter Store]]
+	- Integration with [[AWS SSM Parameter Store]]
 - ECS Tasks Networking 
 	- `none`
 		- no network connectivity
@@ -72,7 +72,7 @@
 	- `Step Scaling`
 	- `Schedule Scaling`
 - ECS Service Auto Scaling (tasks level)  != EC2 Auto Scaling (Instance Level)
-- Fargate doesnt need to care about it (serverless)
+- Fargate doesnt need to care about it (#serverless)
 
 ## [[Auto Scaling#EC2 Spot Instances|Spot Instances]]
 - ECS Classic (ec2 launch type)
@@ -80,7 +80,7 @@
 	- Instance may go into [[draining mode]] to remove running tasks
 	- Good for cost saving
 	- Will impact reliability
-- [[Fargate]]
+- [[AWS Fargate]]
 	- Specify minimm of tasks for on-demand baseline workload
 	- Add tasks running on FARGATE_SPOT for cost-saving 
 	- Regardless of on-demand or spot, fargate scales well based on load

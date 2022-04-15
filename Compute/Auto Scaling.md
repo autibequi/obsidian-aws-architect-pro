@@ -1,36 +1,38 @@
 # Auto Scaling 
+```toc
+```
 ## Auto Scaling Groups
 ### Dynamic Scaling Policies
-* Target Tracking Scaling
-	* Most simple and easy to set-up
-	* Example:
-		* I want the average ASG CPU to stay arround 40%
-	* Simple / Step Scaling
-		* When CloudWatch alarm is trigged (CPU > 70%)
-			* Then add 3 units
-		* When CPU < 30%
-			* Remove 1 unit
-	* Schedule Actions
-		* Anticipate a scaling based on known usage patterns
-		* Example: 
-			* increase the min capacity to 10 at 5pm on Fridays
-* Predictive Scaling
-	* Continuously forecast load and schedule ahead
-* Good Metrics to scale on
-	* CPUUtilization: Average CPU utilization across you instances
-	* RequestCountPerTarget: make sure the number of request per EC2 is stable
-	* Average Network In/Out
-	* Any Custom CloudWatch Metric
-* Good To Know
-	* Spot Fleet Support
-		* Mix on spot and on-demand instances
-	* Lifecyle Hooks
-		* Perform actions before an instance is in service ir before it is terminated
-	* To upgrade an AMI
-		* Muyst update the launch configuration / template
-		* then 
-			* terminate the old instances manually
-			* or use EC2 Instance Refresh
+#### Target Tracking Scaling
+* Most simple and easy to set-up
+* Example:
+	* I want the average ASG CPU to stay arround 40%
+* Simple / Step Scaling
+	* When CloudWatch alarm is trigged (CPU > 70%)
+		* Then add 3 units
+	* When CPU < 30%
+		* Remove 1 unit
+* Schedule Actions
+	* Anticipate a scaling based on known usage patterns
+	* Example: 
+		* increase the min capacity to 10 at 5pm on Fridays
+#### Predictive Scaling
+* Continuously forecast load and schedule ahead
+#### Good Metrics to scale on
+* CPUUtilization: Average CPU utilization across you instances
+* RequestCountPerTarget: make sure the number of request per EC2 is stable
+* Average Network In/Out
+* Any Custom CloudWatch Metric
+#### Good To Know
+* Spot Fleet Support
+	* Mix on spot and on-demand instances
+* Lifecyle Hooks
+	* Perform actions before an instance is in service ir before it is terminated
+* To upgrade an AMI
+	* Muyst update the launch configuration / template
+	* then 
+		* terminate the old instances manually
+		* or use EC2 Instance Refresh
 * [[EC2 Instance Refresh]]
 	* Goal
 		* Update launch template

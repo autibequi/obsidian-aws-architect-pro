@@ -29,7 +29,7 @@
 
 ![[Pasted image 20220414184547.png]]
 
-- #### Spread
+#### Spread
 - Spread instances across underlying hardware
 - Not the same Rack
 - Max of 7 instances per group
@@ -45,28 +45,28 @@
 
 ![[Pasted image 20220414184615.png]]
 
-
-## EC2 Instance Launch Types
-* On Demand 
-	* Short workload
-	* Predictable Pricing
-	* Reliable
-* Spot Instances
-	* Short Workloads
-	* for cheap
-	* can lose instances
-	* not reliable
-* Reserved (Minimium 1 year)
-	* Reserve Instances:
-		* Long Workloads
-	* Convertible Reserved
-		* long workload
-		* flexibles instancees (convertabled)
-	* Dedicated Instances
-		* No other customer will share your hardware
-	* Dedicated Host
-		* Book and entire physical server
-		* Control instance placement
+## EC2 Instances Launch Types
+### On-Demand 
+* Short workload
+* Predictable Pricing
+* Reliable
+### Spot Instances
+* Short Workloads
+* for cheap
+* can lose instances
+* not reliable
+### Reserved  Instances
+- Minimium 1 year
+* Reserve Instances:
+	* Long Workloads
+* Convertible Reserved
+	* long workload
+	* flexibles instancees (convertabled)
+* Dedicated Instances
+	* No other customer will share your hardware
+* Dedicated Host
+	* Book and entire physical server
+	* Control instance placement
 
 ## EC2 Included Metrics
 - CPU

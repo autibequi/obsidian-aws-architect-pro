@@ -11,4 +11,4 @@
 		- AD Connector
 	- SAML 2.0 Provider
 - Centralized Permission management
-- Centralized auditng with [[CloudTrail]]
+- Centralized auditng with [[AWS CloudTrail]]

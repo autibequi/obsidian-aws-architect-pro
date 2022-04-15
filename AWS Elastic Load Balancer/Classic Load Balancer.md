@@ -5,3 +5,6 @@
 	- Needs to update if SAN is add/edit/remove
 	- Better use ALB with SNI (Server Name Indication)
 		- Use many SSL Certificate in the Load Balancer 
+- Cross-Zone Load Balacing
+	- Disable by Default
+	- No chargers for inter AZ data

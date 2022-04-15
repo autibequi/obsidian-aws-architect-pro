@@ -18,7 +18,7 @@
 		- EKS,
 		- Parameter Store
 
-[[SSM Parameter Store]] vs[[Secret Manager]]
+[[AWS SSM Parameter Store]] vs[[AWS Secret Manager]]
 
 * Secret Manager 
 	* More expensive

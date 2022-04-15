@@ -1,7 +1,7 @@
 # SSM Parameter Store
 - Secure Storage for configuration and secret
 - Optional seamless encrypiton using KMS
-- serverless
+- #Serverless
 - easy SDK
 - version rtacing
 - configuration management using path and IAM

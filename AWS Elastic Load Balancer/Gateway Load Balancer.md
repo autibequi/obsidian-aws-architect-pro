@@ -12,3 +12,6 @@
 	- Load Balancer
 		- Distributes traffic to you virtual appliances
 - Uses [[GENEVE]] protocol on port 6081
+- Cross-Zone Load Balacing
+	- Disabled by default
+	- Pay charger for inter AZ data

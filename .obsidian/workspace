@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2689eca8f08292f9",
+        "id": "c5a836fab712f071",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "_doubts.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -41,8 +37,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "cloudwatch",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -80,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271
+    "width": 325
   },
   "right": {
     "id": "9d204a89a64367c7",
@@ -96,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_doubts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,17 +117,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2689eca8f08292f9",
+  "active": "c5a836fab712f071",
   "lastOpenFiles": [
-    "_doubts.md",
-    "_misc/Multi-Domain Certificates.md",
-    "exam.md",
-    "README.md",
-    "Compute and Load Balancing/Elastic Load Balancer/Cross-Zone Load Balancing.md",
-    "Compute and Load Balancing/Elastic Load Balancer/Application Load Balancer.md",
-    "Compute and Load Balancing/Elastic Load Balancer/Network Load Balancer.md",
-    "Compute and Load Balancing/API Gateway.md",
-    "Compute and Load Balancing/Elastic Load Balancer/Gateway Load Balancer.md",
-    "_misc/GENEVE.md"
+    "AWS Route 53.md",
+    "AWS CloudWatch/CloudWatch Metrics.md",
+    "AWS CloudWatch/CloudWatch Logs.md",
+    "AWS CloudWatch/CloudWatch.md",
+    "High Peformance Computing.md",
+    "Compute/AWS AppSync.md",
+    "Compute/AWS Lambda.md",
+    "Compute/Auto Scaling.md",
+    "AWS S3/S3 Access Points.md",
+    "AWS S3/S3 Security.md"
   ]
 }

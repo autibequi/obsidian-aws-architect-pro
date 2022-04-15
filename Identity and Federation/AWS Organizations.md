@@ -1,5 +1,4 @@
-# AWS Orgainzations
-#identity_and_federation
+# AWS Organizations
 - Root Organziation Unit (OU)
 - Management Account
 - Member Account
@@ -18,7 +17,7 @@
 		- Invited accounts must approve enabling all features
 		- Ability to apply an SCP to prevent member accounts from leaving the org
 		- can't switch back to Consolidated Billing Features Only
-- Reserved Instance
+- [[AWS EC2#Reserved Instances]]
 	- Will be valid accross all OU
 	- The Payer Account (Management Account) of an Org can turn off this  Reserved Instance discoutn and saving plans discounts sharing for any account in that organization, including the payer account.
 

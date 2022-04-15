@@ -1,5 +1,4 @@
 # Identity Federation in AWS
-#identity_and_federation
 - Give users outside AWS permision to acess resources
 - Don't need to manage IAM Users
 - Can use another identity system 

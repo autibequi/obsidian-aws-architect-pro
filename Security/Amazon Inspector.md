@@ -12,6 +12,6 @@
 - What Inpector Evaluates
 	- Only for EC2 Instances and containers infraestructure
 	- Continuous Scanning of the infrasestrucutre, only when needed
-	- Package Vulnerabilities (ec2 e ecr) - based on CVE
-	- Network Reachability (ec2)
+	- Package Vulnerabilities ([[AWS EC2]] e [[AWS Elastic Container Service]]) - based on CVE
+	- Network Reachability ([[AWS EC2]])
 - A risk score is associated with all vulnerabilities for priorization
