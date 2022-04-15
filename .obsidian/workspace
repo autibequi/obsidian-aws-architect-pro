@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "31714d4af9a6f9c4",
+        "id": "2689eca8f08292f9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md.md",
+            "file": "_doubts.md",
             "mode": "source",
             "source": false
           }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md.md",
+                "file": "_doubts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,17 +122,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "31714d4af9a6f9c4",
+  "active": "2689eca8f08292f9",
   "lastOpenFiles": [
+    "_doubts.md",
+    "_misc/Multi-Domain Certificates.md",
+    "exam.md",
     "README.md.md",
     "Compute and Load Balancing/Elastic Load Balancer/Cross-Zone Load Balancing.md",
     "Compute and Load Balancing/Elastic Load Balancer/Application Load Balancer.md",
     "Compute and Load Balancing/Elastic Load Balancer/Network Load Balancer.md",
     "Compute and Load Balancing/API Gateway.md",
     "Compute and Load Balancing/Elastic Load Balancer/Gateway Load Balancer.md",
-    "_misc/GENEVE.md",
-    "_misc/ISO Model.md",
-    "Compute and Load Balancing/Elastic Load Balancer/Classic Load Balancer.md",
-    "Compute and Load Balancing/Elastic Load Balancer/Elastic Load Balancer.md"
+    "_misc/GENEVE.md"
   ]
 }
