@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c5a836fab712f071",
+        "id": "ac18e2c1230010e2",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Storage/AWS EBS & Instance Store.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -76,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325
+    "width": 269
   },
   "right": {
     "id": "9d204a89a64367c7",
@@ -92,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Storage/AWS EBS & Instance Store.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,17 +122,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c5a836fab712f071",
+  "active": "ac18e2c1230010e2",
   "lastOpenFiles": [
-    "AWS Route 53.md",
-    "AWS CloudWatch/CloudWatch Metrics.md",
-    "AWS CloudWatch/CloudWatch Logs.md",
-    "AWS CloudWatch/CloudWatch.md",
-    "High Peformance Computing.md",
-    "Compute/AWS AppSync.md",
-    "Compute/AWS Lambda.md",
-    "Compute/Auto Scaling.md",
-    "AWS S3/S3 Access Points.md",
-    "AWS S3/S3 Security.md"
+    "Storage/AWS EBS & Instance Store.md",
+    "Storage/Amazo Transfer Family.md",
+    "Storage/Amazon DataSync.md",
+    "Storage/Amazon FSx.md",
+    "Storage/EFS.md",
+    "Storage/Amazon S3.md",
+    "AWS Elastic Load Balancer/Classic Load Balancer.md",
+    "Containers Services/AWS Elastic Container Service.md",
+    "Compute/AWS EC2.md",
+    "AWS Elastic Load Balancer/Application Load Balancer.md"
   ]
 }

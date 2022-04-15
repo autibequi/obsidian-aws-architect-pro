@@ -1,0 +1,42 @@
+# AWS Global Accelerator #focus 
+- Use the AWS internal network to route to you application
+- Uses 2 [[Anycast IP]] for you application
+- The Anycast IP send traffic directly to [[Edge Locations]]
+- The Edge Location send the traffic ot you application
+- Works with
+	- Elastic IPs
+	- EC2 Instances
+	- ALB
+	- NLB
+	- public or private
+- Supports Client IP Address Preservation (except for NLBs and EIPs) #focus 
+- Consistente Performance
+	- Inteligente routing to lowest latency
+	- no issue with client cache (ip doesnt change)
+	- Internal AWS Network
+- Health Check
+	- Global Accelerator performans a health check of your app
+	- Fast fail over
+	- Great for disaster recovery
+- Security
+	- Only 2 external IP need to be whitelisted
+	- DDoS protection thanks to AWS Shield
+
+## AWS Global Accelerator Vs CloudFront
+- Both 
+	- use AWS network and its edge location
+	- integrates with AWS Shield
+- CloudFront
+	- improves performance for both 
+		- cacheable content (images)
+		- dynamic content (apis)
+	- Content is erved at the edge
+- Global Accelerator
+	- Impoves performance for TCP an UDP
+	- Better for non HTTP use cases
+		- Gaming
+		- iot
+		- voice over ip
+		- good for http use case that 
+			- require a static IP address
+			- require a determinist fast regional failover
