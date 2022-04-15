@@ -1,0 +1,116 @@
+# Network Security
+- Security Groups
+	- Attachedk to ENI
+	- Statefull
+	- Can refenced by CIDR ans security Group ID
+	- Supports security group references for VPC peering
+	- Default:
+		- Inbound all Denied
+		- Outbound all Allowed
+- NACL (network ACL)
+	- Attahed at the subnet level
+	- Stateless
+		- Need to define outbound and inbound rules for all traffic
+	- can only reference a CIDR range (no hostname)
+	- default:
+		- allow all inbound
+		- allow all outbound
+	- new NACL default
+		- denies all inbound and outbound
+- Host Firewall (non aws) #focus
+
+## Types of Attacks to your Infra #focus
+- Distributed Denial of Service (DDoS)
+	- too many requests
+	- syn flood
+	- udp reflection
+	- dns flood attack
+	- slow loris
+- Application Level attackls
+	- More complex
+	- More specific
+	- Cache burstings trategies
+
+## DDoS Protection on AWS
+- AWS Shield Standart:
+	- protect against ddos attacks
+	- for all customers
+	- no additional cost
+	- protects agains
+		- Syn/UDP flood
+		- reflection attacks
+		- others layer 3 and 4 attacks
+- AWS Shield Advanced
+	- 24/7 access to DDos Response Team
+	- Protection against higher fees during spikes due to DDoS
+	- Premium 
+	- cost 3000 per orgs
+	- Protects better
+		- ec2
+		- elb
+		- cloudfront
+		- global accelerator
+		- rout 53
+- AWS WAF
+	- Filter specific request based on rules
+	- WAF IS NOT FOR DDoS PROTECTION
+	- Layer 7
+	- Deploy on
+		- Applicatication load balacne (localized rules)
+		- API Gateway (rules runnin gat the regional or edge level)
+		- Cloudfront (globally) 
+		- AppSync 
+	- Define web ACL
+		- Rules can include
+			- IP Address
+			- HTTP Headers
+			- HTTP Body
+			- URI String
+	- Protects from common attacks:
+		- SQL Injection
+		- cross-site scripting (XSS)
+		- Size constrain, 
+		- Geo Match
+		- Rate Based
+	- Managed Rules
+		- Over 190 managed rules
+		- ready to use from aws or aws marketplace
+		- Baseline Rule Groups
+			- General protection from commmon threats:
+				- AWSManagedRuleSCommonRuleSet
+				- AWSManagedRulesAdminProtectionRuleSet
+			- Use-Case Specific Rule Groups:
+				- AWSManagedRulesSQLiruleSet
+				- AWSManagedRulesWindowsRuleSet
+				- AWSManagedRulesPHPRuleSet
+				- AWSManagedRulesWordPressRuleSet
+			- IP Reputation Rules Group
+				- AWSManagedRUlesAmazonIpReputationList
+				- AWSMAnagedRulesAnonymousIpList
+			- Bot Control Managed Rule Groups
+				- AWSManagedRulesBotControlRuleSet 
+	- Loggign
+		- CloudWatch Logs
+			- 5mb per second
+		- S3 
+			- 5min interval
+		- Kinesis Data Firehose
+			- Limited by Firehose quotas
+			- Since is unlimted can be used to save on other location as:
+				- s3
+				- redshift
+				- opensearch
+- AWS Firewall Manager #focus 
+	- Manage rules in all accounts of an AWS Org
+	- Common set of security rules
+	- WAF Rules
+	- AWS Shielf Advanced
+	- Security Groups for EC2
+	- ENI Resources via VPC
+- Cloudfront and Route 53
+	- protection via global edge network
+	- combbined with aws shield provides ddos attacksmitication at the edge before reaching the application
+- Be ready to scale
+	- Leverage AWS Auto Scaling
+- Separates static resources (s3/cloudfront) from dinamic (ec2/alb)
+

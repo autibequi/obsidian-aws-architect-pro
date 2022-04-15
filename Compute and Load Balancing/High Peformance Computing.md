@@ -1,0 +1,66 @@
+# High Peformance Computing
+- Data Management & Transfer
+	- AWS Direct Connect
+		- Move GB/s of data to the cloud
+		- over a private secure network
+	- AWS Snowball & AWS Snowmobile
+		- Move PB of Data to the cloud
+	- AWS DataSync
+		- Move large amounts of data between
+			- S3
+			- EFS
+			- FSX for Windows 
+- Compute and Networking
+	- EC2 Intances
+		- CPU optimized
+		- GPU optimized
+		- Spot Instances / Spot fleets + Auto Scaling
+	- EC2 Placement Group
+		- Cluters (same rack)
+			- For good Network Performance
+		- EC2 Enhanced Networking (SR-IOV) #focus 
+			- Higher bandwidth 
+			- higher PPS (packets per seconds)
+			- lower latency
+			- How to get it?
+				- Elastic Network Adapter (ENA) up to 100Gbps
+				- Intel 82599VF up to 10Gbps - Legacy
+		- Elastic Fabric Adapter #focus 
+			- Improved ENA for HPC
+			- Only works for linux
+			- Great for inter-node communication
+			- Leverage Message Passing Interface (MPI) Standart
+			- Bypasses the underlying Linux OS to provide low-latency, reliable transport
+- Storage
+	- Instance Attached Storage
+		- EBS
+			- Scale up to 256.000 IOPS with io2 Block Express #focus 
+		- Instance Storage
+			- Scales to millions of IOPS
+			- Linked to EC2 instance Hardware
+			- Low latency
+		- Network Storage
+			- S3
+				- Large Blobs
+				- Not a File System
+			- EFS
+				- Scale IOPS based on total Size
+				- or use provisioned IOPS
+			- FSx for Lustre (linux)
+				- HPC optimized distributed file system
+				- millions of IOPS
+				- backed by S3
+- Automation and Orchestration
+	- AWS Batch
+		- Support multi-node parallel Jobs
+		- Enables run single jobs that span multiples EC2
+		- Easily schedule jobs and launch EC2 Instances accordingly
+	- AWS ParallelCluster
+		- Open Source Cluster Management tool to deploy HPC on AWS
+		- Configure with text files
+		- Automaet creation of
+			- VPC
+			- Subnet
+			- Cluster Type
+			- Instance Types
+	- 

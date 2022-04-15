@@ -1,0 +1,13 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
+  "showFrontmatter": true,
+  "strictLineBreaks": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "_imgs",
+  "newFileLocation": "current",
+  "showLineNumber": false,
+  "spellcheck": false,
+  "tabSize": 6
+}

@@ -1,0 +1,19 @@
+# AWS GuardDuty
+- Intelligent Threat Discovery to Protect AWS Account
+- Uses 
+	- Machine Learning 
+	- Anomaly Detection
+	- third party data
+- Only Click to enable 
+	- 30 days trial
+- No need to install software
+- Input Data Includes
+	- [[CloudTrail]] Events Logs
+		- CloudTrail Management Events
+		- CloudTrail S3 Data Events
+	- VPC Flow Logs
+	- DNS Logs
+	- Kubernetes Audit Logs
+- Can setup [[CloudWatch Events]] rules to be notified
+- [[CloudWatch Events]] can target AWS Lambda or SNS
+- Protects against CryptoCurrency Attacks (has dedicated findings for it)

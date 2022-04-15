@@ -1,0 +1,14 @@
+# Gateway Load Balancer
+- Deploy, scale and manage a fleet of third party network virtual appliances in AWS
+- Examples
+	- Firewalls
+	- Intrusion Detection & Preventions Sytems
+	- Deep Packet Inspection Systems
+	- Payload Manipulation
+- [[ISO Model#Layer 3 - Network layer]]
+- Combine the following functions
+	- Transparent Network Gateway
+		- Single entry/exit for all traffic
+	- Load Balancer
+		- Distributes traffic to you virtual appliances
+- Uses [[GENEVE]] protocol on port 6081

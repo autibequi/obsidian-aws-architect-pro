@@ -1,0 +1,138 @@
+{
+  "main": {
+    "id": "2eb96939841a9470",
+    "type": "split",
+    "children": [
+      {
+        "id": "31714d4af9a6f9c4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3327582937aee8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb50964fa25535d5",
+        "type": "tabs",
+        "dimension": 72.33532934131736,
+        "children": [
+          {
+            "id": "ede27ee8cdb18c19",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "251f6c5f426698e0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "26b40fae2e832d26",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "eccac8ca61c3dfa0",
+        "type": "tabs",
+        "dimension": 27.66467065868263,
+        "children": [
+          {
+            "id": "5460bc34af46ad03",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271
+  },
+  "right": {
+    "id": "9d204a89a64367c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "b735158b418c3d3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3370374b58435d13",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a6e2906998c8205d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "31714d4af9a6f9c4",
+  "lastOpenFiles": [
+    "README.md.md",
+    "Compute and Load Balancing/Elastic Load Balancer/Cross-Zone Load Balancing.md",
+    "Compute and Load Balancing/Elastic Load Balancer/Application Load Balancer.md",
+    "Compute and Load Balancing/Elastic Load Balancer/Network Load Balancer.md",
+    "Compute and Load Balancing/API Gateway.md",
+    "Compute and Load Balancing/Elastic Load Balancer/Gateway Load Balancer.md",
+    "_misc/GENEVE.md",
+    "_misc/ISO Model.md",
+    "Compute and Load Balancing/Elastic Load Balancer/Classic Load Balancer.md",
+    "Compute and Load Balancing/Elastic Load Balancer/Elastic Load Balancer.md"
+  ]
+}

@@ -1,0 +1,66 @@
+# KMS - Key Management Service
+- If you hear encryptiuon, problably is KMS
+- AWS manage keysf or you
+- Fully integrated with IAM for authorization
+- Seamlessly integrated into
+	- EBS
+	- S3
+	- Redshift
+	- RDS
+	- SSM
+	- etc
+- Keys
+	- Symetric Keys (AES-256 keys)
+		- Single encryption key that is used to encryupt and decrypt
+		- AWS services that uses KMS uses Symetric Keys
+		- Necessary for [[envelope encryption]]
+		- You never access the key.
+		- You need to call and API that uses the key for you
+	- Asymetric (RSA e ECC key pairs)
+		- public key - to encrypt
+		- private key - to decrypt
+		- used for encrypt/decrypt or sig/verify operations
+		- public key is downloadable but you cant access private key
+## Types of KMS Key
+- Custumer Managed Keys
+	- Create mange and use
+	- can be enable disable
+	- possibility of rotation policy
+	- can add a key policy (resource policy)
+	- audit in [[CloudTrail]]
+	- leverage for envelop encryption
+- AWS Managed Keys
+	- used by AWS Service
+		- S3
+		- ebs
+		- redshift
+		- etc
+	- Manage by AWS (rotates every 3 years)
+	- View key policy 
+	- audit in cloud trail
+- AWS Owned Key
+	- Created and Managed by AWS
+	- used by some aws services to protect resources
+	- used in multiple AWS account but they are not in you AWS accounts
+	- you cant view or track it
+
+## Creating an KMS key
+- KMS Key Material Origin
+	- Identify the source of the key
+	- cannot be changed
+- AWS_KMS - default
+	- manage by aws
+- EXTERNAL
+	- you import the key material into KMS key
+	- no assymetrical,
+	- 256bits only
+	- no auto rotation
+	- no cloudHSM
+- AWS_CLOUDHSM
+	- Creates the key material in a custom key store ([[CloudHSM]] Cluster)
+## KMS MultiRegion Key
+- Use same KMS multiple regions
+- Can encrypt in a region and decrypt in another
+- not global
+	- primary + replicas
+- each multi region key is managed independetly

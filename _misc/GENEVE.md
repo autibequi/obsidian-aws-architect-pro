@@ -1,0 +1,2 @@
+# Generic Netowrk Virtualization Encapsulation
+Network virtualization involves the cooperation of devices with a wide variety of capabilities such as software and hardware tunnel endpoints, transit fabrics, and centralized control clusters.

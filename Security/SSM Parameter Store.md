@@ -1,0 +1,18 @@
+# SSM Parameter Store
+- Secure Storage for configuration and secret
+- Optional seamless encrypiton using KMS
+- serverless
+- easy SDK
+- version rtacing
+- configuration management using path and IAM
+- notificatrons with cloudwatch events
+- integration with cloud formation
+- Tiers
+	- Satander
+		- free
+	- Advanced
+		- paid
+- Parameters Policies (Advance Tier only)
+	- allow to assing a ttl to aparameter
+	- can assign multiple policies at a time
+	- 

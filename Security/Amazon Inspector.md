@@ -1,0 +1,17 @@
+# Amazon Inspector
+- Automated Security Assessments
+- For EC2 Instances
+	- Leveraging the [[AWS System Manager]] agent
+	- Analyze against
+		- unintended network accessibility
+		- Runnin OS against know vulnerabilities
+- For Containers push to Amazon ECR
+	- Assessment of containers as they are pushed
+- Reportingand Integration wish [[AWS Security Hub]]
+- Send finding to [[Amazon Event Bridge]]
+- What Inpector Evaluates
+	- Only for EC2 Instances and containers infraestructure
+	- Continuous Scanning of the infrasestrucutre, only when needed
+	- Package Vulnerabilities (ec2 e ecr) - based on CVE
+	- Network Reachability (ec2)
+- A risk score is associated with all vulnerabilities for priorization

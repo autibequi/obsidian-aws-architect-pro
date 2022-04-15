@@ -1,0 +1,13 @@
+# AWS Certificate Manager
+- to host a public SSL in AWS you can
+	- Buy your own and upload using cli
+	- have ACM provision and renew public SSL certs for you (for free)
+- ACM loads SSL certiicates on the following integrations
+	- Load Balancers (including the ones created by EB)
+	- Cloudfront Distributions
+	- API on APi Gateway
+- Auto renewed
+- Regional Service
+	- Need to create an SSL certificate to each region where used
+	- You cant copy from one to another
+	- If you use CloudFront its a global service so it kinda fix it

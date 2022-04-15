@@ -1,0 +1,14 @@
+# AWS Single Sign-On (SSO)
+- Centraly manage SSO to
+	- Multiple accounts
+	- commonly ued bussiness applications (office, salesforce, box etc)
+	- Custom SAML 2.0 application
+- Intregrated with AWS Orgs
+- Identity Sources
+	- SSO Build In
+	- Active Directory 
+		- Manage Microsoft AD
+		- AD Connector
+	- SAML 2.0 Provider
+- Centralized Permission management
+- Centralized auditng with [[CloudTrail]]
