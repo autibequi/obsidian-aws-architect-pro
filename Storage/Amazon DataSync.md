@@ -1,0 +1,14 @@
+# AWS Data Sync
+- Move large amount of data from on-permise to AWS
+- Can sync
+	- [[S3]] (any storage classes)
+	- [[AWS EFS]]
+	- [[Amazon FSx]]
+- Move data from your NAS or FS via NFS or [[SAMBA]]
+- Replication Task can be scheduled
+	- hourly
+	- daily
+	- weekly
+- Leverage the datesync agent to connect to your systems
+- Can setup a bandwith limit
+- 

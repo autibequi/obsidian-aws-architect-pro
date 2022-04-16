@@ -58,7 +58,7 @@
 - Optional Condition on:
 	- public IP or Elastic IP (NOT PRIVATE IP)
 	- source VPC or Source VPC endpoint
-	- CloudFront Oirgin Idenity
+	- [[AWS CloudFront]] Origin Idenity
 	- MFA
 
 ## S3 Pre-signed URL

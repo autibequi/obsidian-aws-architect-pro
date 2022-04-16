@@ -9,7 +9,7 @@
 	- API Keys
 	- throttles
 - Huge Scale
-- #Serverless
+- Serverless
 - Req/Resp Transformation
 - OpenAPI spec
 - CORS
@@ -52,11 +52,11 @@
 - Edge-Optmized
 	- Default
 	- For global clients
-	- Request are routed through the CloudFront Edge Location (improves latency)
+	- Request are routed through the [[AWS CloudFront#Edge Locations]] (improves latency)
 	- The API Gateway still lives in only one region
 - Regional
 	- For clients within the same region
-	- Could manully combine with CloudFront
+	- Could manully combine with [[AWS CloudFront]]
 		- More control over the caching strategies and distribution
 - Private
 	- Deploy only inside a VPC
@@ -107,7 +107,7 @@
 	- Enable log at stage level
 	- Can log full req/res data
 	- Can send API Gateway Access Logs
-	- Can send logs directly into  [[Kinesis]] Data Firehose (alternative to CW Logs)
+	- Can send logs directly into  [[AWS Kinesis]] Data Firehose (alternative to CW Logs)
 - [[CloudWatch Metrics]]
 	- Metrics are by stage
 	- Possibility to enable detailed metrics

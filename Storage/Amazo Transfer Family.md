@@ -1,0 +1,41 @@
+# AWS Transfer Family
+- Fully Managed Service for file trasnfer into and out of [[AWS S3]] or [[AWS EFS]] 
+- Supported Protocols
+	- AWS Transfer for
+		- FTP - File Transfer Protocol
+		- FTPS - File Transfer Protocol over SSL
+		- SFTP - Secure File Transfer Protocol
+- Managed Infrastruture 
+	- Scalable
+	- REliable
+	- Highly Available
+	- Pay per 
+		- Provisioned endpoint per hour
+		- data transfer in GB
+- Athentication
+	- Store and manage user's credentials within the service
+	- Integration wioth
+		- Microsoft AD
+		- LDAP
+		- Okta
+		- [[Cognito]]
+		- Custom
+- Usage
+	- Sharing FIles
+	- Public Datsets
+	- CRM
+	- ERP
+
+## Endpoint Types
+![[Pasted image 20220415204306.png]]
+- Public Endpoint
+	- Ip May change
+	- use DNS provided by AWS
+	- Can't setup allowed IP lists
+- VPC Endpoint with Internal Access
+	- Deploy the FTP on a VPC
+	- Connect to the FTP by accessing it via VPC
+	- Static Private IP
+- VPC endpoint with Internet-Facing Access 
+	- Static Private IP
+	- Static Public IP

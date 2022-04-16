@@ -1,13 +1,13 @@
 # AWS Global Accelerator #focus 
 - Use the AWS internal network to route to you application
 - Uses 2 [[Anycast IP]] for you application
-- The Anycast IP send traffic directly to [[Edge Locations]]
+- The Anycast IP send traffic directly to [[AWS CloudFront#Edge Locations]]
 - The Edge Location send the traffic ot you application
 - Works with
 	- Elastic IPs
 	- EC2 Instances
-	- ALB
-	- NLB
+	- [[Application Load Balancer]]
+	- [[Network Load Balancer]]
 	- public or private
 - Supports Client IP Address Preservation (except for NLBs and EIPs) #focus 
 - Consistente Performance
@@ -20,11 +20,11 @@
 	- Great for disaster recovery
 - Security
 	- Only 2 external IP need to be whitelisted
-	- DDoS protection thanks to AWS Shield
+	- DDoS protection thanks to [[AWS Shield]]
 
-## AWS Global Accelerator Vs CloudFront
+## AWS Global Accelerator Vs [[AWS CloudFront]]
 - Both 
-	- use AWS network and its edge location
+	- use AWS network and its [[AWS CloudFront#Edge Locations]]
 	- integrates with AWS Shield
 - CloudFront
 	- improves performance for both 

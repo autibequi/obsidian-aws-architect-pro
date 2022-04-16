@@ -1,7 +1,7 @@
 # AWS Lambda
 ## Main Integrations
 - [[AWS API Gateway]]
-- [[Kinesis]]
+- [[AWS Kinesis]]
 - [[DynamoDB]]
 - [[S3]]
 - [[IoT]]
@@ -100,21 +100,21 @@
 	- Make sure the processing is [[idempotent]] in this case
 - Can define queues for failed processing
 	- [[Dead Letter Queues]]
-	- SNS 
-	- SQS
+	- [[SNS]] 
+	- [[SQS]]
 
 ## Event Source Mapping
 - Source
-	- [[Kinesis]] Data Streams
-	- [[SQS]]
-	- [[SQS FIFO]]
+	- [[AWS Kinesis]] Data Streams
+	- [[SQS]] Standart
+	- [[SQS]] FIFO
 	- [[DynamoDB]] Streams
 	- [[Amazon MQ]]
-	- [[Apache Kafka]]
+	- Apache Kafka
 - All records repect ordering 
 	- Except [[SQS]] Standart
 - If your function returns an error the entire batch is reprocessed until success
-	- [[Kinesis]], [[DynamoDB]] Stream: stop shard processing
+	- [[AWS Kinesis]], [[DynamoDB]] Stream: stop shard processing
 
 ## Destination #focus 
 * Nov 2019 - Can configure to send result to a destination
@@ -124,8 +124,8 @@
 		* success event
 		* failed event
 	* Destinations 
-		* SQS
-		* SNS
+		* [[SQS]]
+		* [[SNS]]
 		* Lambda
 		* [[Amazon Event Bridge]]
 * ==AWS recomends you to use destination instead of [[Dead Letter Queues]]. Both can be used at the same time==
@@ -136,7 +136,7 @@
 		* [[SQS]]
 		* [[SNS]]
 
-## Lambda Version
+## Versions
 - Always work on the `$LASTEST` version
 - Publishing a lambda creates a new version
 - Versions are immutable
@@ -144,7 +144,7 @@
 - Versions get their own [[ARN]]
 - Version = Code + Configuration + EnvVar
 
-## Lambda Alias
+## Alias
 - Pointers to lambda functions
 - Alias are mutable
 
@@ -153,7 +153,7 @@
 
 ## Lambda & [[CodeDeploy]]
 - CodeDeploy can help you automate traffic shift for lambda aliases
-- Feature is integrated withing the [[SAM Framework]]
+- Feature is integrated withing the [[AWS Lambda#SAM Framework]]
 - Traffic Shift Modes
 	- `Linear`: grow traffic every N minutes until 100%
 		- Linear10PercentEvery3Minutes
@@ -162,3 +162,6 @@
 		- Canary10Percent5Minutes
 	- `AllAtOnce`
 	- You can create Pre & Post Traffic hooks to check health of the Lambda
+
+## SAM Framework
+???

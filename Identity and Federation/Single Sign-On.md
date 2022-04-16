@@ -7,8 +7,8 @@
 - Identity Sources
 	- SSO Build In
 	- Active Directory 
-		- Manage Microsoft AD
-		- AD Connector
+		- [[Directory Services#Microsoft AD]]
+		- [[Directory Services#AD Connector]]
 	- SAML 2.0 Provider
 - Centralized Permission management
 - Centralized auditng with [[AWS CloudTrail]]

@@ -93,10 +93,10 @@ All process can be suspended for debuging etc
 	- Can hve multiple launch pools to be choosen by the fleet
 	- spot fleet stop launching instances when reaching capacity or max cost
 - Strategies to allocate spot instances
-	- `LowestPrice`: 
+	- lowestPrice` 
 		- Will launch from the pool with the lowest price
 		- good for optimization and short workloads
-	-`diversified`
+	`diversified`
 		- distributed across all pools
 		- good for availability and long workloads
 	- `capacityOptimized`:

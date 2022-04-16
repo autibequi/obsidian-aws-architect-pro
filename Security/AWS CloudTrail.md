@@ -7,7 +7,7 @@
 - Get a history of events /apicalls made within AWS Account
 	- Console
 	- SDK
-	- CLi
+	- CLI
 	- AWS Services
 - Can save CloudTrails to
 	- S3

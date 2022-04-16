@@ -10,4 +10,4 @@
 - Regional Service
 	- Need to create an SSL certificate to each region where used
 	- You cant copy from one to another
-	- If you use CloudFront its a global service so it kinda fix it
+	- If you use [[AWS CloudFront]] its a global service so it kinda fix it

@@ -1,0 +1,23 @@
+# Amazon OpenSearch (formerly ElasticSearch)
+- Renames 
+	- Elastic Search => OpenSearch
+	- Kibana => OpenSearch Dashboards
+- Managed Version of OpenSearch (fork of ElasticSearch)
+- Not Serverless
+- Cases
+	- Log Analytics
+	- Real Time monitoring
+	- Security Analysis 
+	- Full Text Search
+	- Indexing
+
+- OpenSearch
+	- provides search and index capabilities
+- OpenSearch Dashboard
+	- Realtime dashboard
+	- on top of OpenSearch
+	- Alternative of [[CloudWatch]] Dashboards (more advanced)
+- LogStash
+	- Log ingestion 
+	- use "logstash agent"
+	- alternative of [[CloudWatch Logs]]

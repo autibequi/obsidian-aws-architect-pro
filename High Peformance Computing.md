@@ -5,11 +5,11 @@
 	- over a private secure network
 - AWS Snowball & AWS Snowmobile
 	- Move PB of Data to the cloud
-- AWS DataSync
+- [[Amazon DataSync]]
 	- Move large amounts of data between
-		- S3
-		- EFS
-		- FSX for Windows 
+		- [[S3]]
+		- [[AWS EFS]]
+		- [[Amazon FSx]]
 ## Compute and Networking
 - EC2 Intances
 	- CPU optimized

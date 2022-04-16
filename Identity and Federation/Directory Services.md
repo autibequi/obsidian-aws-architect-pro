@@ -13,7 +13,7 @@
 * A group of trees is a forest
 
 ## Services
-### AWS Managed Microsoft AD
+### Microsoft AD
 * Supports MFA
 * Trust the on-prem users database
 * Can create users on the AWS Managed AD

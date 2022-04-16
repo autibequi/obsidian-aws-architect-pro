@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ac18e2c1230010e2",
+        "id": "dd3858b45931ac18",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Storage/AWS EBS & Instance Store.md",
+            "file": "Databases/AWS Aurora.md",
             "mode": "source",
             "source": false
           }
@@ -25,7 +25,7 @@
       {
         "id": "cb50964fa25535d5",
         "type": "tabs",
-        "dimension": 72.33532934131736,
+        "dimension": 80.52580331061344,
         "children": [
           {
             "id": "ede27ee8cdb18c19",
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cloudwatch",
+                "query": "edge loca",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,7 +63,7 @@
       {
         "id": "eccac8ca61c3dfa0",
         "type": "tabs",
-        "dimension": 27.66467065868263,
+        "dimension": 19.474196689386563,
         "children": [
           {
             "id": "5460bc34af46ad03",
@@ -75,12 +75,24 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "49eff1201c4ed5a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_misc/Handling Extreme Rates.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 269
+    "width": 259.5
   },
   "right": {
     "id": "9d204a89a64367c7",
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage/AWS EBS & Instance Store.md",
+                "file": "Databases/AWS Aurora.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,24 +127,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "ac18e2c1230010e2",
+  "active": "dd3858b45931ac18",
   "lastOpenFiles": [
-    "Storage/AWS EBS & Instance Store.md",
-    "Storage/Amazo Transfer Family.md",
-    "Storage/Amazon DataSync.md",
-    "Storage/Amazon FSx.md",
-    "Storage/EFS.md",
-    "Storage/Amazon S3.md",
-    "AWS Elastic Load Balancer/Classic Load Balancer.md",
-    "Containers Services/AWS Elastic Container Service.md",
-    "Compute/AWS EC2.md",
-    "AWS Elastic Load Balancer/Application Load Balancer.md"
+    "Databases/AWS Aurora.md",
+    "_misc/Disaster Recovery.md",
+    "Databases/AWS RDS.md",
+    "Databases/Recovery Time Objective.md",
+    "Security/RDS Security.md",
+    "Databases/Amazon OpenSearch.md",
+    "Databases/AWS DynamoDB.md",
+    "Databases/AWS Kinesis.md",
+    "Identity and Federation/AWS Organizations.md",
+    "_misc/Handling Extreme Rates.md"
   ]
 }
