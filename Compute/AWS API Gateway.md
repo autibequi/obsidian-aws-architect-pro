@@ -42,7 +42,7 @@
 	- Expose any AWS API through the API Gateway
 	- Example
 		- start an AWS Step Function workflow
-		- post a message to SQS
+		- post a message to [[AWS SQS]]
 	- Why?
 		- Add Authentication
 		- Deploy publicly

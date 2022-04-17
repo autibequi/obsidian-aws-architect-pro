@@ -1,0 +1,14 @@
+# AWS Simple Workflow Service
+- Old
+- Use instead [[AWS Step Function]]
+- Not Serverless
+	- Runs in an EC2
+- Max 1 year runtime
+- type os step
+	- actitivty step
+	- decision step
+	- built in human intervention steps
+- Just usefull for one case: #focus
+	- You need external signals to intervine the process
+	- need child process that return value to parent processes
+	- Amazon Mechanical Turk #focus 

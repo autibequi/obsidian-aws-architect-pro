@@ -1,0 +1,17 @@
+# Amazon MQ
+- Amazon MQ == Managed Apache ActiveMQ
+- Compatible with open standarts
+	- [[AWS SQS]] e [[AWS SNS]] are proprietary solutions 
+- Doesnt Scale as much as [[AWS SQS]]
+- But doenst need to refactor code
+- Run in a EC2 Instance
+	- Can run High Availability with failover
+- Have both:
+	- Queue functions ([[AWS SQS]])
+	- topic feature ([[AWS SNS]])
+- Can migrates from
+	- IBM MQ
+	- TIBCO EMS
+	- Rabbit MQ
+	- Apache ActiveMQ
+	- 

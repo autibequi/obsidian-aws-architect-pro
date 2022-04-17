@@ -67,3 +67,11 @@
 ![[Pasted image 20220416171840.png]]
 
 
+## Aurora Logs
+- Monitor the following log files:
+	- Error Logs
+	- Slow Query Logs
+	- General Logs
+	- Audit Logs
+- They can be downloaded or published to [[CloudWatch Logs]]
+- 

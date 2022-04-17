@@ -40,6 +40,10 @@
 	- Generate Thumbenails upload to S3
 - Can create as manyu "S3 Event" as desired
 - Typically deliver events inseconds but can sometimes take a minute or longer
+- targets
+	- [[AWS SQS]]
+	- [[SNS]]
+	- ...
 
 ### With Amazon EventBridge
 - Send S3 events to [[Amazon Event Bridge]]

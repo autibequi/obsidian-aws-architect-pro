@@ -1,0 +1,42 @@
+# AWS SNS - Simple Notification Service
+- Pub/Sub
+- Send one messaget o many consumers
+- Event creator just send to one Topic
+- Subscribers will receive the same message published to the topic
+- up to 12.500.000 subscriptions per topic
+- up to 100.000 topics
+- Subscribers Types
+	- Emails
+	- SMS
+	- HTTP Endpoints
+	- SQS
+	- Lambda
+	- [[AWS Kinesis]] Firehose
+- Many AWS can send messages directly to SNS
+- How to publish
+	- Topic Publish (SDK)
+		- create a topic
+		- create a subscription 
+		- publish to a topic
+	- Direct Publish (for mobile SDKs)
+		- Create a plataform app
+		- create a plataform endpoint
+		- publish to the endpoint
+		- works with
+			- google GCM
+			- Apple APNS
+			- Amazon ADM
+- Security
+	- HTTPS
+	- at rest [[AWS KMS]] encryption with KMS keyus
+	- Client-side encryption
+- Access Controls
+	- [[IAM Policies]]
+- SNS Access Policies
+	- [[Resource Based Policies]]
+	- Service based policies
+- MEssage filtering
+	- Subscribers can filter the messages that will receive
+	- JSON Based Policy
+
+## SQS Fanout Pattern

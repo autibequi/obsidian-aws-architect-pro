@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "dd3858b45931ac18",
+        "id": "65bbdec89a45d553",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Databases/AWS Aurora.md",
+            "file": "Monitoring/AWS CloudWatch/CloudWatch.md",
             "mode": "source",
             "source": false
           }
@@ -41,8 +41,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "edge loca",
-                "matchingCase": true,
+                "query": "sqs",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/AWS Aurora.md",
+                "file": "Monitoring/AWS CloudWatch/CloudWatch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,25 +127,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "dd3858b45931ac18",
+  "active": "65bbdec89a45d553",
   "lastOpenFiles": [
-    "Databases/AWS Aurora.md",
-    "_misc/Disaster Recovery.md",
-    "Databases/AWS RDS.md",
-    "Databases/Recovery Time Objective.md",
-    "Security/RDS Security.md",
-    "Databases/Amazon OpenSearch.md",
-    "Databases/AWS DynamoDB.md",
-    "Databases/AWS Kinesis.md",
-    "Identity and Federation/AWS Organizations.md",
-    "_misc/Handling Extreme Rates.md"
+    "Monitoring/AWS CloudWatch/CloudWatch.md",
+    "Storage/AWS S3/AWS S3.md",
+    "Data Engineering/AWS Kinesis/AWS Kinesis.md",
+    "Data Engineering/AWS QuickSight.md",
+    "Data Engineering/AWS Athena.md",
+    "Data Engineering/Amazon DocumentDB.md",
+    "Data Engineering/AWS Redshift.md",
+    "Data Engineering/AWS Glue.md",
+    "Data Engineering/Amazon EMR.md",
+    "Compute/AWS EC2.md"
   ]
 }

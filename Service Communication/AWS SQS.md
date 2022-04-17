@@ -1,0 +1,34 @@
+# AWS SQS
+- Serverless
+- Managed Queue
+- Integrated with IAM
+- no provisioning
+- decouple services
+- Max size 256Kb
+	- Point to a S3 file for bigger messages
+- Can be read by
+	- EC2
+	- Lambda
+- Cases
+	- Write Buffer for [[AWS DynamoDB]]
+- SQS FIFO
+	- First in, first out
+	- keep order
+	- without batching #doubt 
+		- 300 message/sec
+	- with batch
+		- 3000 messages/sec
+- Idempotency
+	- You code must garanteer that wont process the same message twice
+
+## Event Source Mapping #focus 
+- Event Source mapping will
+	- pool from SQS (long polling)
+- specify batch size 
+	- 1-10 messages
+- recommended
+	- visibility timeout = 6x lambda timeout
+- Dead Letter Queue
+	- Set up on SQS not the Lambda #focus 
+	- must be async
+- 

@@ -1,0 +1,21 @@
+# AWS Athena
+- serverless SQL queries
+- on top of [[AWS S3]]
+- pay per query
+- output to s3
+- supports
+	- CSV
+	- JSON
+	- Parquet
+	- ORC
+- Queries are loged in [[AWS CloudTrail]]
+	- then can be sent to [[CloudWatch Logs]]
+- Cases
+	- sporadic queries
+- Ready to use queries
+	- [[AWS VPC#Flow Logs]]
+	- [[AWS CloudTrail]]
+	- [[Application Load Balancer]] Access Logs
+	- Cost and Usage (billing)
+	- etc
+	- 

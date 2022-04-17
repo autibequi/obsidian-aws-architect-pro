@@ -7,9 +7,9 @@
 - [[IoT]]
 - [[CloudWatch Events]] 
 - [[CloudWatch Logs]]
-- [[SNS]]
+- [[AWS SNS]]
 - [[Cognito]]
-- [[SQS]]
+- [[AWS SQS]]
 
 ## Runtimes
 - Node
@@ -94,25 +94,25 @@
 ## Asynchronous Invocation
 - Via
 	- [[S3]]
-	- [[SNS]]
+	- [[AWS SNS]]
 	- [[CloudWatch Events]]
 - Lambda auto retries 3 times
 	- Make sure the processing is [[idempotent]] in this case
 - Can define queues for failed processing
 	- [[Dead Letter Queues]]
-	- [[SNS]] 
-	- [[SQS]]
+	- [[AWS SNS]] 
+	- [[AWS SQS]]
 
 ## Event Source Mapping
 - Source
 	- [[AWS Kinesis]] Data Streams
-	- [[SQS]] Standart
-	- [[SQS]] FIFO
+	- [[AWS SQS]] Standart
+	- [[AWS SQS]] FIFO
 	- [[DynamoDB]] Streams
 	- [[Amazon MQ]]
 	- Apache Kafka
 - All records repect ordering 
-	- Except [[SQS]] Standart
+	- Except [[AWS SQS]] Standart
 - If your function returns an error the entire batch is reprocessed until success
 	- [[AWS Kinesis]], [[DynamoDB]] Stream: stop shard processing
 
@@ -124,8 +124,8 @@
 		* success event
 		* failed event
 	* Destinations 
-		* [[SQS]]
-		* [[SNS]]
+		* [[AWS SQS]]
+		* [[AWS SNS]]
 		* Lambda
 		* [[Amazon Event Bridge]]
 * ==AWS recomends you to use destination instead of [[Dead Letter Queues]]. Both can be used at the same time==
@@ -133,8 +133,8 @@
 	* https://docs.aws.amazon.com/lambda/latest/dg/invocation-eventsourcemapping.html
 	* Only for discardedevent batches
 	* Destinations
-		* [[SQS]]
-		* [[SNS]]
+		* [[AWS SQS]]
+		* [[AWS SNS]]
 
 ## Versions
 - Always work on the `$LASTEST` version

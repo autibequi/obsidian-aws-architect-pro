@@ -26,9 +26,9 @@
 - S3 Event Notification
 	- events like CRUD 
 	- destination
-		- SNS
-		- SQS
-		- Lambda
+		- [[AWS SNS]]
+		- [[AWS SQS]]
+		- [[AWS Lambda]]
 	- Delivered in seconds
 		- If versioning enabled: a event is sent for each file same name
 		- if disabled: you may receive only one notification for two files saved with the same name (and folder)
@@ -37,9 +37,9 @@
 	- CloudWatch events
 		- Need to enable cloudtrail object levl logging on s3 first
 		- target:
-			- lambda 
-			- sqs
-			- sns
+			- [[AWS Lambda]] 
+			- [[AWS SQS]]
+			- [[AWS SNS]]
 			- etc
 
 ## Security

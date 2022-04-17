@@ -1,0 +1,28 @@
+# AWS Kinesis Analytics
+![[Pasted image 20220417134622.png]]
+- Used to make computation on **Input Streams**
+	- [[AWS Kinesis Stream]]
+	- [[AWS Kinesis Firehose]]
+- Reference Table (optional) #doubt 
+	- [[AWS S3]]
+- Use Cases
+	- Streaming ETL #doubt 
+		- selects columns
+		- simple transfomrations on streaming data
+	- Continuous Metric Generation
+		- Live leaderboard for games
+	- Responsive Analytics
+		- Create metrics and alarms for certain criteria 
+- Feature
+	- only paid for consumed
+	- not cheap
+	- serverless
+	- automaticaly scales
+	- IAM Permissions to access
+		- Streaming Source
+		- Streaming destinations
+	- Can write computation in
+		- SQL
+		- Apache Flink #doubt 
+	- Schema Discovery #doubt 
+	- [[AWS Lambda]] for pre-processing data 
