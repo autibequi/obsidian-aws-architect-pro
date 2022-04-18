@@ -1,0 +1,26 @@
+# Cloud Watch Events
+- Intercept events from aws services 
+- example
+	- ec2 instance start
+	- code build failure
+	- s3
+	- trusted advisor
+- Can intercept any api call with cloudtrail integration
+- notable targets
+	- Compute
+		- [[AWS Lambda]]
+		- [[AWS Batch]]
+		- [[AWS Elastic Container Service]]
+	- Orchestration
+		- [[AWS Step Function]]
+		- [[CodePipeline]]
+		- [[CodeBuild]]
+	- INtegration
+		- [[AWS SQS]]
+		- [[AWS SNS]]
+		- [[AWS Kinesis Stream]]
+		- [[AWS Kinesis Firehose]]
+	- Maintenance
+		- [[SSM]]
+		- [[AWS EC2#actions]]
+		- 

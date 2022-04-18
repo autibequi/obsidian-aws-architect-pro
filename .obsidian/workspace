@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Monitoring/AWS CloudWatch/CloudWatch.md",
+            "file": "Compute/AWS Lambda.md",
             "mode": "source",
             "source": false
           }
@@ -25,7 +25,7 @@
       {
         "id": "cb50964fa25535d5",
         "type": "tabs",
-        "dimension": 80.52580331061344,
+        "dimension": 72.26074895977808,
         "children": [
           {
             "id": "ede27ee8cdb18c19",
@@ -41,8 +41,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sqs",
-                "matchingCase": false,
+                "query": "SAM ",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -58,12 +58,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "eccac8ca61c3dfa0",
         "type": "tabs",
-        "dimension": 19.474196689386563,
+        "dimension": 27.739251040221912,
         "children": [
           {
             "id": "5460bc34af46ad03",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Monitoring/AWS CloudWatch/CloudWatch.md",
+                "file": "Compute/AWS Lambda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,15 +137,15 @@
   },
   "active": "65bbdec89a45d553",
   "lastOpenFiles": [
-    "Monitoring/AWS CloudWatch/CloudWatch.md",
-    "Storage/AWS S3/AWS S3.md",
-    "Data Engineering/AWS Kinesis/AWS Kinesis.md",
-    "Data Engineering/AWS QuickSight.md",
-    "Data Engineering/AWS Athena.md",
-    "Data Engineering/Amazon DocumentDB.md",
-    "Data Engineering/AWS Redshift.md",
-    "Data Engineering/AWS Glue.md",
-    "Data Engineering/Amazon EMR.md",
-    "Compute/AWS EC2.md"
+    "Compute/AWS Lambda.md",
+    "Deployment & Instance Management/SSM - AWS System Manager.md",
+    "Deployment & Instance Management/AWS CDK.md",
+    "Deployment & Instance Management/AWS SAM.md",
+    "Deployment & Instance Management/Service Catalog.md",
+    "Deployment & Instance Management/CloudFormation.md",
+    "Deployment & Instance Management/CodeDeploy.md",
+    "Deployment & Instance Management/OpsWorks.md",
+    "Deployment & Instance Management/Elastic BeanStalk.md",
+    "Monitoring/X-Ray.md"
   ]
 }

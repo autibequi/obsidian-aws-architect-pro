@@ -153,7 +153,7 @@
 
 ## Lambda & [[CodeDeploy]]
 - CodeDeploy can help you automate traffic shift for lambda aliases
-- Feature is integrated withing the [[AWS Lambda#SAM Framework]]
+- Feature is integrated withing the [[AWS SAM]]
 - Traffic Shift Modes
 	- `Linear`: grow traffic every N minutes until 100%
 		- Linear10PercentEvery3Minutes
@@ -162,6 +162,3 @@
 		- Canary10Percent5Minutes
 	- `AllAtOnce`
 	- You can create Pre & Post Traffic hooks to check health of the Lambda
-
-## SAM Framework
-???
